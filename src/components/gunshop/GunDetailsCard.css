@@ -1,0 +1,12 @@
+.EnlargingImage {
+    transition: transform .2s; /* Animation */
+}
+
+.EnlargingImage:hover {
+    width: 500px;
+    transform: scale(1.5);
+}
+
+.Container {
+
+}
