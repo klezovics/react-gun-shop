@@ -1,3 +1,5 @@
+import BuyButton from "./BuyButton";
+
 function GunDetails(props) {
     return (
         <div style={{border: '1px solid black', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
@@ -7,7 +9,7 @@ function GunDetails(props) {
             <div>
               <p>Name: {props.name}</p>
               <p>Price: {props.price}</p>
-              <button>Buy</button>
+              <BuyButton/>
             </div>
         </div>
     );
