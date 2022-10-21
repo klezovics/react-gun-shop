@@ -10,7 +10,7 @@ function BuyButton() {
     );
 }
 
-const audio = new Audio("/sounds/gunshop/cash-register.wav")
+const audio = new Audio("/gunshop/sounds/cash-register.wav")
 let playCashRegisterSound = () => { audio.play() }
 
 
