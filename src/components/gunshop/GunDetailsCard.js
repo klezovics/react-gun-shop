@@ -22,7 +22,7 @@ const EnlargingOnHoverImage = styled.img`
 `
 
 
-function GunDetailsCard({url, name, price}) {
+function GunDetailsCard({url, name, price, buyHandler}) {
     return (
         <FlexContainer>
             <div>
@@ -31,7 +31,7 @@ function GunDetailsCard({url, name, price}) {
             <div style={{marginLeft: '20px'}}>
               <p>Name: {name}</p>
               <p>Price: {price}</p>
-              <BuyButton/>
+              <BuyButton buyHandler={buyHandler} name={name} price={price}/>
             </div>
         </FlexContainer>
     );
